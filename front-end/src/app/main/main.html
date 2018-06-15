@@ -1,25 +1,13 @@
 <div class="container">
 
 <div class="panel panel-defaul">
-  <div class="panel-heading">Post A Message</div>
+  <div class="panel-heading"> Welcome to our demo!</div>
   <div class="panel-body">
-    <div class="input-group">
-    <textarea class="form-control custom-control" row=3 style="resize:none" ng-model="main.message">
-    </textarea>
-    <span class="input-group-addon btn btn-primary" ng-click="main.postMessage()">Post</span>
-  </div>
+ we will show how Consul connect cant be used to clusterise your monolitic application
+
+ <img ng-src="https://i.imgur.com/XtacpMq.png" alt="Waz up consul connect" />
+
   </div>
 </div>
 
-<div class="panel panel-defaul">
-    <div class="panel-heading">Messages</div>
-    <div class="panel-body">
-      <ul class="list-group">
-        <li class="list-group-item" ng-repeat="message in main.messages">
-          {{message.msg}} -  {{message.user.email}}
-        </li>
-      </ul>
-    </div>
-  </div>
-  
 </div>

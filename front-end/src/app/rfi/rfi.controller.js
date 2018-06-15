@@ -1,7 +1,7 @@
 export class RfiController {
   constructor ($http) {
     'ngInject';
-
+    
     this.$http = $http;
     this.getRfi();
 
