@@ -5,6 +5,7 @@ import { routerConfig } from './index.route';
 import { runBlock } from './index.run';
 import { MainController } from './main/main.controller';
 import { AuthController } from './auth/auth.controller';
+import { RfiController } from './rfi/rfi.controller';
 import { NavbarController } from '../app/components/navbar/navbar.controller';
 import { compareToDirective } from './directives/compareTo.directive';
 import { GithubContributorService } from '../app/components/githubContributor/githubContributor.service';
@@ -23,6 +24,7 @@ angular.module('meanCluster', ['ui.router', 'ui.bootstrap', 'toastr','satellizer
   .service('webDevTec', WebDevTecService)
   .controller('MainController', MainController)
   .controller('AuthController', AuthController)
+  .controller('RfiController', RfiController)
   .controller('NavbarController', NavbarController)
   .directive('acmeNavbar', NavbarDirective)
   .directive('acmeMalarkey', MalarkeyDirective)
