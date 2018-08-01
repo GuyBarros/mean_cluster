@@ -1,18 +1,22 @@
+var varHost = "";
 export class MainController {
-  constructor ($http) {
+  constructor ($http,$location) {
     'ngInject';
 
     this.$http = $http;
+    varHost = $location.host();
     this.getMessages();
 
 }
  postMessage(){
-   this.$http.post('http://localhost:5000/api/message', {msg: this.message })
+  var url = 'http://'+varHost+':5000/api/message'
+   this.$http.post(url, {msg: this.message })
  }
 
  getMessages(){
    var vm = this;
-  this.$http.get('http://localhost:5000/api/message').then(function(result){
+  var url = 'http://'+varHost+':5000/api/message'
+  this.$http.get(url).then(function(result){
     vm.messages = result.data;
   })
  }
