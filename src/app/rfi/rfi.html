@@ -1,22 +1,28 @@
 <div class="container">
 
 <div class="panel panel-defaul">
-  <div class="panel-heading">add a Question and Answer</div>
+  <div class="panel-heading"> <label>add a Question and Answer</label></div>
   <div class="panel-body">
     <div class="input-group">
+        <label>Question:</label>
     <textarea class="form-control custom-control" row=3 style="resize:none" ng-model="rfi.rfi.question">
     </textarea>
+    <br>
+    <label>Answer:</label>
     <textarea class="form-control custom-control" row=3 style="resize:none" ng-model="rfi.rfi.answer">
     </textarea>
+    <br>
+    <label>Tags:</label>
     <textarea class="form-control custom-control" row=3 style="resize:none" ng-model="rfi.rfi.tags">
     </textarea>
-    <span class="input-group-addon btn btn-primary" ng-click="rfi.postRfi()" ui-sref="rfi">Post</span>
+    <br>
+    <span class="input-group-addon btn btn-primary" ng-click="rfi.postRfi()">Post</span> 
   </div>
   </div>
 </div>
 
 <div class="panel panel-defaul">
-    <div class="panel-heading">Questions $ Answers</div>
+    <div class="panel-heading"> <label>Questions & Answers</label></div>
     <div class="panel-body">
       <table class="table table-striped">
         <thead>

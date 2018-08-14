@@ -1,7 +1,9 @@
 {
   "name": "meanCluster",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "gulp-bg": "0.0.9"
+  },
   "scripts": {
     "test": "gulp test"
   },

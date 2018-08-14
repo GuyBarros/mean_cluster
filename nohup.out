@@ -1,0 +1,226 @@
+[13:55:05] Using gulpfile ~/HashiCorp/GIT_ROOT/mean_cluster/gulpfile.js
+[13:55:05] Starting 'scripts'...
+[13:55:05] Starting 'styles'...
+[13:55:06] gulp-inject 2 files into index.scss.
+[13:55:07] Finished 'styles' after 1.93 s
+[13:55:07] Time: 1891ms
+          Asset     Size  Chunks             Chunk Names
+index.module.js  18.8 kB       0  [emitted]  main
+
+ERROR in ./src/app/index.module.js
+
+/Users/guy/HashiCorp/GIT_ROOT/mean_cluster/src/app/index.module.js
+  3:2  error  Parsing error: Illegal import declaration
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+ERROR in ./src/app/index.config.js
+
+/Users/guy/HashiCorp/GIT_ROOT/mean_cluster/src/app/index.config.js
+  1:19  error  Parsing error: Illegal export declaration
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+ERROR in ./src/app/index.route.js
+
+/Users/guy/HashiCorp/GIT_ROOT/mean_cluster/src/app/index.route.js
+  1:2  error  Parsing error: Illegal export declaration
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+ERROR in ./src/app/index.run.js
+
+/Users/guy/HashiCorp/GIT_ROOT/mean_cluster/src/app/index.run.js
+  1:2  error  Parsing error: Illegal export declaration
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+ERROR in ./src/app/main/main.controller.js
+
+/Users/guy/HashiCorp/GIT_ROOT/mean_cluster/src/app/main/main.controller.js
+  1:19  error  Parsing error: Illegal export declaration
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+ERROR in ./src/app/auth/auth.controller.js
+
+/Users/guy/HashiCorp/GIT_ROOT/mean_cluster/src/app/auth/auth.controller.js
+  1:2  error  Parsing error: Illegal export declaration
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+ERROR in ./src/app/rfi/rfi.controller.js
+
+/Users/guy/HashiCorp/GIT_ROOT/mean_cluster/src/app/rfi/rfi.controller.js
+  1:19  error  Parsing error: Illegal export declaration
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+ERROR in ./src/app/directives/compareTo.directive.js
+
+/Users/guy/HashiCorp/GIT_ROOT/mean_cluster/src/app/directives/compareTo.directive.js
+  1:2  error  Parsing error: Illegal export declaration
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+ERROR in ./src/app/components/navbar/navbar.controller.js
+
+/Users/guy/HashiCorp/GIT_ROOT/mean_cluster/src/app/components/navbar/navbar.controller.js
+  1:2  error  Parsing error: Illegal export declaration
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+ERROR in ./src/app/components/navbar/navbar.directive.js
+
+/Users/guy/HashiCorp/GIT_ROOT/mean_cluster/src/app/components/navbar/navbar.directive.js
+  1:2  error  Parsing error: Illegal export declaration
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+ERROR in ./src/app/components/webDevTec/webDevTec.service.js
+
+/Users/guy/HashiCorp/GIT_ROOT/mean_cluster/src/app/components/webDevTec/webDevTec.service.js
+  1:2  error  Parsing error: Illegal export declaration
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+ERROR in ./src/app/components/malarkey/malarkey.directive.js
+
+/Users/guy/HashiCorp/GIT_ROOT/mean_cluster/src/app/components/malarkey/malarkey.directive.js
+  1:2  error  Parsing error: Illegal export declaration
+
+✖ 1 problem (1 error, 0 warnings)
+
+[13:55:07] Finished 'scripts' after 2.33 s
+[13:55:07] Starting 'scripts:watch'...
+[13:55:07] Starting 'inject'...
+[13:55:07] gulp-inject 1 files into index.html.
+[13:55:07] gulp-inject 1 files into index.html.
+[13:55:07] Finished 'inject' after 15 ms
+[13:55:08] Time: 284ms
+          Asset     Size  Chunks             Chunk Names
+index.module.js  47.2 kB       0  [emitted]  main
+
+ERROR in ./src/app/index.module.js
+
+/Users/guy/HashiCorp/GIT_ROOT/mean_cluster/src/app/index.module.js
+  3:2  error  Parsing error: Illegal import declaration
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+ERROR in ./src/app/index.config.js
+
+/Users/guy/HashiCorp/GIT_ROOT/mean_cluster/src/app/index.config.js
+  1:19  error  Parsing error: Illegal export declaration
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+ERROR in ./src/app/index.route.js
+
+/Users/guy/HashiCorp/GIT_ROOT/mean_cluster/src/app/index.route.js
+  1:2  error  Parsing error: Illegal export declaration
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+ERROR in ./src/app/index.run.js
+
+/Users/guy/HashiCorp/GIT_ROOT/mean_cluster/src/app/index.run.js
+  1:2  error  Parsing error: Illegal export declaration
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+ERROR in ./src/app/main/main.controller.js
+
+/Users/guy/HashiCorp/GIT_ROOT/mean_cluster/src/app/main/main.controller.js
+  1:19  error  Parsing error: Illegal export declaration
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+ERROR in ./src/app/auth/auth.controller.js
+
+/Users/guy/HashiCorp/GIT_ROOT/mean_cluster/src/app/auth/auth.controller.js
+  1:2  error  Parsing error: Illegal export declaration
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+ERROR in ./src/app/directives/compareTo.directive.js
+
+/Users/guy/HashiCorp/GIT_ROOT/mean_cluster/src/app/directives/compareTo.directive.js
+  1:2  error  Parsing error: Illegal export declaration
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+ERROR in ./src/app/rfi/rfi.controller.js
+
+/Users/guy/HashiCorp/GIT_ROOT/mean_cluster/src/app/rfi/rfi.controller.js
+  1:19  error  Parsing error: Illegal export declaration
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+ERROR in ./src/app/components/navbar/navbar.controller.js
+
+/Users/guy/HashiCorp/GIT_ROOT/mean_cluster/src/app/components/navbar/navbar.controller.js
+  1:2  error  Parsing error: Illegal export declaration
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+ERROR in ./src/app/components/navbar/navbar.directive.js
+
+/Users/guy/HashiCorp/GIT_ROOT/mean_cluster/src/app/components/navbar/navbar.directive.js
+  1:2  error  Parsing error: Illegal export declaration
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+ERROR in ./src/app/components/webDevTec/webDevTec.service.js
+
+/Users/guy/HashiCorp/GIT_ROOT/mean_cluster/src/app/components/webDevTec/webDevTec.service.js
+  1:2  error  Parsing error: Illegal export declaration
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+ERROR in ./src/app/components/malarkey/malarkey.directive.js
+
+/Users/guy/HashiCorp/GIT_ROOT/mean_cluster/src/app/components/malarkey/malarkey.directive.js
+  1:2  error  Parsing error: Illegal export declaration
+
+✖ 1 problem (1 error, 0 warnings)
+
+[13:55:08] Finished 'scripts:watch' after 292 ms
+[13:55:08] Starting 'watch'...
+[13:55:08] Finished 'watch' after 15 ms
+[13:55:08] Starting 'serve'...
+[13:55:08] Finished 'serve' after 43 ms
+[13:55:08] webpack is watching for changes
+[BS] [BrowserSync SPA] Running...
+[Browsersync] Access URLs:
+ ---------------------------------------
+       Local: http://localhost:3000/
+    External: http://192.168.1.137:3000/
+ ---------------------------------------
+          UI: http://localhost:3001
+ UI External: http://192.168.1.137:3001
+ ---------------------------------------
+[Browsersync] Serving files from: .tmp/serve
+[Browsersync] Serving files from: src

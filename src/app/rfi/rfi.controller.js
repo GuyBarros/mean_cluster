@@ -10,9 +10,10 @@ export class RfiController {
 
 }
  postRfi(){
+  var vm = this;
    var url = 'http://'+varHost+':5000/api/rfi'
-   this.$http.post(url, {rfi: this.rfi });
-   this.getRfi();
+   this.$http.post(url, {rfi: this.rfi }).then( this.getRfi());
+  
 
  }
 
