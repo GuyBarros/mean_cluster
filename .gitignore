@@ -1,0 +1,5 @@
+#remove components 
+node_modules/
+bower_components/
+dist/
+*.lock
